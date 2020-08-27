@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".AboutPage" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".TicTacToe" />
+        <activity android:name=".LearnPython" />
+        <activity android:name=".LearnC" />
+        <activity android:name=".MicroProcessor" />
+        <activity android:name=".ExclusiveOr" />
+        <activity android:name=".RightShift" />
+        <activity android:name=".LeftShift" />
+        <activity android:name=".BitOr" />
+        <activity android:name=".BitAnd" />
+        <activity android:name=".BitwiseCalculator" />
+        <activity android:name=".EvenOdd" />
+        <activity android:name=".CheckPrime" />
+        <activity android:name=".CheckArmstrong" />
+        <activity android:name=".And" />
+        <activity android:name=".Greater" />
+        <activity android:name=".Logicalcalculator" />
+        <activity android:name=".SquareRoot" />
+        <activity android:name=".Cube" />
+        <activity android:name=".Factorial" />
+        <activity android:name=".Square" />
+        <activity android:name=".Div" />
+        <activity android:name=".Mul" />
+        <activity android:name=".Sub" />
+        <activity android:name=".Add" />
+        <activity android:name=".Arithematical_calculator" />
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

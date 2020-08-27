@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arithematicalcalculator"
+    android:orientation="vertical"
+    tools:context=".Arithematical_calculator">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This Is For The Calculation Of The Arithematical operations. You Have To First Select The Option You Want to perform."
+        android:textColor="@android:color/background_dark"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/ac1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Addition"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/ac2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Subtraction"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/leftshiftt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Multiplication"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/ac4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Division"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/ac5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Square"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/ac6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="factorial"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/ac7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Cube"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/ac8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="SquareRoot"
+        android:textColor="@android:color/background_dark" />
+
+</LinearLayout>

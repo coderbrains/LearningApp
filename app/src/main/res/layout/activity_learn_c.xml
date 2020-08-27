@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="These Lectures are made by me.You guys can learn The programming in
+8085 Microprocessor easily in hindi."
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CONTACT FOR QUERY:"
+        android:textColor="@android:color/background_light"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="9102504188"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/v1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="click to see videos"
+        android:textColor="@android:color/black"></Button>
+
+
+</LinearLayout>

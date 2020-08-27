@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context=".Add">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:gravity="center"
+        android:text="Enter The Natural Numbers In The Specified Slots And Then Click The Button To Get The Result."
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"></TextView>
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:hint="Enter The First Number"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textStyle="bold|italic"></EditText>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter The First Number"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:inputType="numberDecimal|numberSigned"
+        android:textStyle="bold|italic"></EditText>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bitwise or"
+        android:textColor="@color/colorPrimary"></Button>
+
+
+</LinearLayout>

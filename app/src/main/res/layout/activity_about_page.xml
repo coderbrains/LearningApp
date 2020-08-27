@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".AboutPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello Everyone thanks For Downloading This App . This App is Made By :"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Name - Awanish Kumar Singh"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Roll_no - 1813210042"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="College_Id - 180094"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Branch  - CSE(2nd Shift)"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sec - E "
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_light"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        android:text="I also Run a Channel On You Tube named As Coder Brains I Hope You Guys
+Have Gone To The Channel Before This page to read Python ,c and microprocessor. Click The Button
+Below To Go There."></TextView>
+
+    <Button
+        android:id="@+id/c1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="go to coder brains"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"></Button>
+
+
+</LinearLayout>
